@@ -19,7 +19,7 @@ An interactive, Streamlit-powered dashboard for analyzing solar radiation and re
 #### 📺 Video Overview  
 Watch a walkthrough of the dashboard in action:  
 
-![Watch the Video](./resources/dashboard-demo.webm) <!-- Replace with the actual video file path -->  
+![Watch the Video](./resources/dashboard-demo.mp4) <!-- Replace with the actual video file path -->  
 
 #### 📸 Screenshots  
 
