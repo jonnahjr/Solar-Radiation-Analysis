@@ -169,10 +169,3 @@ This project is licensed under the [MIT License](./LICENSE).
 ---
 
 **⭐ If you find this project useful, please consider giving it a star!**
-
----
-
-### Notes:  
-
-1. Ensure the resources (video and images) are placed in the `resources/` folder and replace the placeholders in the README with their correct paths.  
-2. Let me know if you need further refinements or additions.
