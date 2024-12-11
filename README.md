@@ -1,6 +1,4 @@
-Here's a corrected and polished version of your **README.md**, incorporating all the fixes and a more professional layout:
 
----
 
 # 🌞 Solar Radiation Analysis  
 
