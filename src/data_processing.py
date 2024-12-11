@@ -10,7 +10,7 @@ def load_data(file_path: str) -> pd.DataFrame:
     except Exception as e:
         raise FileNotFoundError(f"Error loading file at {file_path}: {e}")
     
-    # Ensure 'Timestamp' exists and is parsed correctly
+    
     if 'Timestamp' not in df.columns:
         raise ValueError("The 'Timestamp' column is required in the dataset.")
     
@@ -85,7 +85,7 @@ def analyze_wind_data(df: pd.DataFrame) -> Dict[str, pd.Series]:
     
     wind_speed_distribution = df['WS'].value_counts(normalize=True)
     
-    # Bin wind direction into 8 categories (45° each)
+  
     wind_direction_bins = pd.cut(
         df['WD'], bins=np.linspace(0, 360, 9), labels=[
             'N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'], include_lowest=True
